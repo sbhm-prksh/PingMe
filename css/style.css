@@ -104,4 +104,37 @@ body {
     .send {
         width: 40%;
     }
+    #mymessage {
+        width: 82%;
+
+    }
+    
+    .btn {
+        width: 12%;
+    }
+}
+@media(max-width:500px) {
+    .container {
+        width: 90%;
+    }
+
+    .send {
+        width: 90%;
+    }
+    .center{
+        width: 60%;
+
+    }
+    #mymessage {
+        width: 82%;
+
+    }
+    
+    .btn {
+        width: 12%;
+    }
+    .message {
+        width: 60%;
+
+    }
 }
