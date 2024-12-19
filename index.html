@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="/js/client.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>PingMe</title>
+</head>
+
+<body>
+    <div id="body">
+        <nav>
+            <img class="logo" src="/chat2.png" alt="">
+        </nav>
+        <div class="container">
+            <!-- <div class="message right">Me: Hello</div>
+            <div class="message left">Shreya: Hi</div>
+            <div class="message right">Me: Hello</div>
+            <div class="message left">Shreya: Hi</div> -->
+        </div>
+        <div class="send">
+            <form action="#" id="messageInput">
+                <input type="text" name="myMessage" id="mymessage" placeholder="Enter your message.....">
+                <button class="btn" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
